@@ -1,5 +1,8 @@
 # Calcular el número Pi con hilos (pthread) en C
 
+# Requerimientos del sistema
+* GCC version: `gcc (Ubuntu 8.2.0-7ubuntu1) 8.2.0`
+
 ## Pasos
 * Compilar: `gcc pi-threads.c -pthread -o pi-threads`
 * Ejecutar: `./pi-threads`
@@ -29,7 +32,7 @@ Pi = 3.14159265092265727048
 
 ## Tiempos de ejecución
 
-### Especificaciones de software y hardware
+### Especificaciones del computador utilizado
 <pre>
 Sistema operativo: Ubuntu 18.10
 Procesador: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz

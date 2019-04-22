@@ -1,28 +1,43 @@
 # Calcular el número Pi con hilos (pthread) en C
 
-## Compilar
-`gcc pi-hilos.c -pthread -o pi-hilos`
-
-## Ejecutar
-`./pi-hilos`
+## Pasos
+* Compilar: `gcc pi-threads.c -pthread -o pi-threads`
+* Ejecutar: `./pi-threads`
 
 ## Ejemplo de salida
 <pre>
 Calculo de Pi con hilos
-hilos: 4, tiempo: 46.49 seg
-parcialPi[0] = 3.14159265308807666983
-parcialPi[1] = 0.00000000024999999998
-parcialPi[2] = 0.00000000000000000000
-parcialPi[3] = 0.00000000004166666667
-Pi = 3.14159265337974336063
+hilos = 16, tiempo = 3 seg
+parcialPi[0] = 3.14159264558932393996
+parcialPi[1] = 0.00000000400000000009
+parcialPi[2] = 0.00000000133333333258
+parcialPi[3] = 0.00000000000000000000
+parcialPi[4] = 0.00000000000000000000
+parcialPi[5] = 0.00000000000000000000
+parcialPi[6] = 0.00000000000000000000
+parcialPi[7] = 0.00000000000000000000
+parcialPi[8] = 0.00000000000000000000
+parcialPi[9] = 0.00000000000000000000
+parcialPi[10] = 0.00000000000000000000
+parcialPi[11] = 0.00000000000000000000
+parcialPi[12] = 0.00000000000000000000
+parcialPi[13] = 0.00000000000000000000
+parcialPi[14] = 0.00000000000000000000
+parcialPi[15] = 0.00000000000000000000
+Pi = 3.14159265092265727048
 </pre>
 
 ## Tiempos de ejecución
+* Operative system: Ubuntu 18.10
+* Processor: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+* Memory: 11GiB System memory
+
 <pre>
-hilos: 1, tiempo: 10.62 seg
-hilos: 2, tiempo: 21.03 seg
-hilos: 4, tiempo: 46.03 seg
-hilos: 8, tiempo: 92.04 seg
-hilos: 16, tiempo: 183.98 seg
+Hilos   Tiempo[seg]
+1       10
+2       5
+4       3
+8       3
+16      3
 </pre>
 

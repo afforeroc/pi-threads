@@ -28,10 +28,15 @@ Pi = 3.14159265092265727048
 </pre>
 
 ## Tiempos de ejecución
-* Operative system: Ubuntu 18.10
-* Processor: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
-* Memory: 11GiB System memory
 
+### Especificaciones de software y hardware
+<pre>
+Sistema operativo: Ubuntu 18.10
+Procesador: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+Memoria: 11GiB
+</pre>
+
+### Hilos vs Tiempo 
 <pre>
 Hilos   Tiempo[seg]
 1       10
@@ -40,4 +45,3 @@ Hilos   Tiempo[seg]
 8       3
 16      3
 </pre>
-

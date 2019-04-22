@@ -1,6 +1,6 @@
 # Calcular el número Pi con hilos (pthread) en C
 
-# Requerimientos del sistema
+## Requerimientos del sistema
 * GCC version: `gcc (Ubuntu 8.2.0-7ubuntu1) 8.2.0`
 
 ## Pasos
